@@ -10,15 +10,18 @@ Hello!, say hello!
 - 🤯 I like to be creative
 
 <h3>Chat for a while?</h3>
+<div>
 <a href="https://t.me/HectorSaldes" target="blank">
 <img align="center" src="https://img.shields.io/badge/Telegram-white?style=for-the-badge&logo=telegram&logoColor=white" alt="HectorSaldes" />
 </a>
 <a href="https://twitter.com/hectorsaldes" target="blank">
 <img align="center" src="https://img.shields.io/badge/Twitter-white?style=for-the-badge&logo=Twitter" alt="HectorSaldes" />
 </a>
+</div>
 
 
 <h3>Tools, Technologies and Languages that I use</h3>
+<div>
 <img src="https://img.shields.io/badge/React-202020?style=for-the-badge&logo=react&logoColor=5ccfee"/>
 <img src="https://img.shields.io/badge/Node.js-3c7f3a?style=for-the-badge&logo=node.js&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-202020?style=for-the-badge&logo=javascript&logoColor=yellow"/>
@@ -37,6 +40,7 @@ Hello!, say hello!
 <img src="https://img.shields.io/badge/Medium-000?&style=for-the-badge&logo=medium"/>
 <img src="https://img.shields.io/badge/Behance-0064f2?&style=for-the-badge&logo=behance"/>
 <img src="https://img.shields.io/badge/Lucidchart-f86b12?&style=for-the-badge&logo=lucidchart"/>
+</div>
 <br/>
 <div>
     <details>
