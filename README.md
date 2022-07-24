@@ -23,22 +23,26 @@ Hello!, say hello!
 <h3>Tools, Technologies and Languages that I use</h3>
 <div>
 <img src="https://img.shields.io/badge/React-202020?style=for-the-badge&logo=react&logoColor=5ccfee"/>
-<img src="https://img.shields.io/badge/Node.js-3c7f3a?style=for-the-badge&logo=node.js&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-202020?style=for-the-badge&logo=javascript&logoColor=yellow"/>
-<img src="https://img.shields.io/badge/Java-red?style=for-the-badge&logo=java"/>
-<img src="https://img.shields.io/badge/Figma-white?style=for-the-badge&logo=figma"/>
-<img src="https://img.shields.io/badge/Git-white?style=for-the-badge&logo=git"/>
-<img src="https://img.shields.io/badge/Notion-000?style=for-the-badge&logo=notion&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tailwindcss-white?style=for-the-badge&logo=Tailwindcss&logoColor=#08adcb"/>
+<img src="https://img.shields.io/badge/Netlify-2f393b?style=for-the-badge&logo=Netlify"/>
+<img src="https://img.shields.io/badge/Node.js-3c7f3a?style=for-the-badge&logo=node.js&logoColor=white"/>
 <img src="https://img.shields.io/badge/MongoDB-219945?style=for-the-badge&logo=mongodb&logoColor=white"/>
 <img src="https://img.shields.io/badge/Spring boot-219945?style=for-the-badge&logo=spring&logoColor=white"/>
-<img src="https://img.shields.io/badge/Netlify-2f393b?style=for-the-badge&logo=Netlify"/>
+<img src="https://img.shields.io/badge/Java-red?style=for-the-badge&logo=java"/>
 <img src="https://img.shields.io/badge/HTML5-f1491c?&style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/Figma-white?style=for-the-badge&logo=figma"/>
+<img src="https://img.shields.io/badge/Tailwindcss-white?style=for-the-badge&logo=Tailwindcss&logoColor=#08adcb"/>
+<img src="https://img.shields.io/badge/Git-white?style=for-the-badge&logo=git"/>
+<img src="https://img.shields.io/badge/Ubuntu-white?&style=for-the-badge&logo=ubuntu"/>
+<img src="https://img.shields.io/badge/Notion-000?style=for-the-badge&logo=notion&logoColor=white"/>
+<img src="https://img.shields.io/badge/Github-000?&style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/Spotify-000?&style=for-the-badge&logo=spotify"/>
+<img src="https://img.shields.io/badge/Medium-000?&style=for-the-badge&logo=medium"/>
+<img src="https://img.shields.io/badge/Unsplash-000?&style=for-the-badge&logo=unsplash"/>
 <img src="https://img.shields.io/badge/Canva-454fe1?&style=for-the-badge&logo=Canva"/>
 <img src="https://img.shields.io/badge/Visual Studio Code-0078d7?&style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
-<img src="https://img.shields.io/badge/github-000?&style=for-the-badge&logo=github"/>
-<img src="https://img.shields.io/badge/Medium-000?&style=for-the-badge&logo=medium"/>
 <img src="https://img.shields.io/badge/Behance-0064f2?&style=for-the-badge&logo=behance"/>
+<img src="https://img.shields.io/badge/Coolors-0c65ee?&style=for-the-badge&logo=coolors"/>
 <img src="https://img.shields.io/badge/Lucidchart-f86b12?&style=for-the-badge&logo=lucidchart"/>
 </div>
 <br/>
