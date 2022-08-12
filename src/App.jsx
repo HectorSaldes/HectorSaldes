@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Experience from "./pages/Experience";
 import Work from "./pages/Work";
 import Contact from "./pages/Contact";
+import Uses from './pages/Uses';
 
 export default function App() {
 	const [lang, setLang] = useState("es");
@@ -13,9 +14,7 @@ export default function App() {
 		if (_lang) {
 			if (_lang === "es" || _lang === "en") setLang(_lang);
 			else setLang("es");
-		} else {
-			localStorage.setItem("lang", "es");
-		}
+		} else localStorage.setItem("lang", "es");
 	}, []);
 
 	return (
@@ -24,6 +23,7 @@ export default function App() {
 			<Presentation lang={lang} />
 			<About lang={lang} />
 			<Experience lang={lang} />
+			<Uses lang={lang} />
 			<Work lang={lang} />
 			<Contact lang={lang} />
 		</div>
