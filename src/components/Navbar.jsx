@@ -12,14 +12,23 @@ export default function Navbar({ lang, setLang }) {
 	const changeMenu = (c) => setToggleMenu(c);
 
 	function printMenu() {
-		for (let i = 0; i < menu.length; i++) menuGeneral.push(<CartoonMenuFilled id={i} linked={menu[i].ref} color={menu[i].color} text={menu[i][lang]} />,);
+		for (let i = 0; i < menu.length; i++)
+			menuGeneral.push(
+				<div key={i}>
+					<CartoonMenuFilled
+						id={i}
+						linked={menu[i].ref}
+						color={menu[i].color}
+						text={menu[i][lang]}
+					/>
+				</div>,
+			);
 	}
 
 	printMenu();
 
 	return (
-		<nav
-			className='w-full px-4 py-4 lg:px-7 lg:fixed bg-white dark:bg-gray-900 dark:text-white shadow visible z-40'>
+		<nav className='w-full px-4 py-4 lg:px-7 lg:fixed bg-white dark:bg-gray-900 dark:text-white shadow visible z-40'>
 			<div className='container mx-auto'>
 				<div className='flex justify-between items-center'>
 					<a href='#me'>
@@ -31,21 +40,28 @@ export default function Navbar({ lang, setLang }) {
 					<div className='hidden lg:block'>
 						<div className='flex justify-center items-center text-center text-lg'>
 							{menuGeneral}
-							<LanguageSwitch lang={lang} setLang={setLang} />
+							<LanguageSwitch
+								lang={lang}
+								setLang={setLang}
+							/>
 						</div>
 					</div>
-					<button
-						className='block lg:hidden h-10 w-10 p-1 text-white rounded hover:bg-orange-500 bg-orange-400 transition duration-200 '>
-						{toggleMenu === 'none' ?
-							(<MenuIcon onClick={() => changeMenu('block')} />) :
-							(<XIcon onClick={() => changeMenu('none')} />)}
+					<button className='block lg:hidden h-10 w-10 p-1 text-white rounded hover:bg-orange-500 bg-orange-400 transition duration-200 '>
+						{toggleMenu === 'none' ? (
+							<MenuIcon onClick={() => changeMenu('block')} />
+						) : (
+							<XIcon onClick={() => changeMenu('none')} />
+						)}
 					</button>
 				</div>
 				<div className='w-full h-auto text-center lg:hidden'>
 					<div style={{ display: toggleMenu }}>
 						{menuGeneral}
 						<div className='mt-5'>
-							<LanguageSwitch lang={lang} setLang={setLang} />
+							<LanguageSwitch
+								lang={lang}
+								setLang={setLang}
+							/>
 						</div>
 					</div>
 				</div>
