@@ -1,4 +1,3 @@
-import React from 'react';
 import { menu, about } from '../assets/utils/Texts';
 import MED from '../assets/img/MED.png';
 import MER from '../assets/img/MER.png';
@@ -7,13 +6,14 @@ import CartoonImageOutlined from '../components/CartoonImageOutlined';
 export default function About({ lang }) {
 	return (
 		<div id='about' className='container mx-auto py-5 px-5 dark:text-white'>
-			<div className='lg:flex lg:h-screen lg:items-center'>
+			<div className='lg:flex lg:min-h-screen lg:items-center'>
 				<div>
 					<p className='text-2xl lg:text-3xl font-bold'>{menu[0][lang]}</p>
 					<div className='flex flex-col lg:flex-row'>
 						<div className='w-full lg:w-1/2 text-lg lg:text-xl text-justify'>
 							<p>{about[0][lang]}
-								<span className='font-bold dark:text-yellow-300 duration-1000'>Hector Saldaña Espinoza</span>
+								<span
+									className='font-bold dark:text-yellow-300 duration-1000'>Hector Saldaña Espinoza</span>
 								{about[1][lang]}
 							</p>
 							<br />
@@ -36,6 +36,7 @@ export default function About({ lang }) {
 								<span className='font-bold dark:text-blue-500 duration-1000'>CSS</span>,{' '}
 								<span className='font-bold dark:text-yellow-500 duration-1000'>JavaScript</span>,{' '}
 								<span className='font-bold dark:text-blue-600 duration-1000'>React</span>,{' '}
+								<span className='font-bold dark:text-purple-600 duration-1000'>Kotlin</span>,{' '}
 								<span className='font-bold dark:text-green-600 duration-1000'>Node.js</span>{' '}y{' '}
 								<span className='font-bold dark:text-red-600 duration-1000'>Java</span>. 💻
 							</p>

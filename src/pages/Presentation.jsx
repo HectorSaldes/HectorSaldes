@@ -1,4 +1,3 @@
-import React from 'react';
 import {
 	GrLinkedinOption,
 	GrMedium,
@@ -30,26 +29,19 @@ export default function Presentation({ lang }) {
 					</div>
 					<div className='mt-8 mx-auto w-full lg:w-1/2'>
 						<div className='flex justify-between'>
-							<CartoonCardOutlined Items={() =>
-								(<a href='https://medium.com/@HectorSaldes' target='_blank' rel='noopener noreferrer'>
-									<GrMedium color='black' size='35' />
-								</a>)} />
-
-							<CartoonCardOutlined Items={() =>
-								(<a href='https://github.com/HectorSaldes' target='_blank' rel='noopener noreferrer'>
-									<FiGithub color='black' size='35' />
-								</a>)} />
-
-							<CartoonCardOutlined Items={() =>
-								(<a href='https://twitter.com/hectorsaldes' target='_blank' rel='noopener noreferrer'>
-									<FiTwitter color='black' size='35' />
-								</a>)} />
-							<CartoonCardOutlined Items={() =>
-								(<a href='https://www.linkedin.com/in/hector-salda%C3%B1a-ab3977219/' target='_blank'
-									rel='noopener noreferrer'>
-									<GrLinkedinOption color='black' size='35' />
-								</a>)} />
-
+							<a href='https://medium.com/@HectorSaldes' target='_blank' rel='noopener noreferrer'>
+								<CartoonCardOutlined Items={() => (<GrMedium color='black' size='35' />)} />
+							</a>
+							<a href='https://github.com/HectorSaldes' target='_blank' rel='noopener noreferrer'>
+								<CartoonCardOutlined Items={() => (<FiGithub color='black' size='35' />)} />
+							</a>
+							<a href='https://twitter.com/hectorsaldes' target='_blank' rel='noopener noreferrer'>
+								<CartoonCardOutlined Items={() => (<FiTwitter color='black' size='35' />)} />
+							</a>
+							<a href='https://www.linkedin.com/in/hector-salda%C3%B1a-ab3977219/' target='_blank'
+							   rel='noopener noreferrer'>
+								<CartoonCardOutlined Items={() => (<GrLinkedinOption color='black' size='35' />)} />
+							</a>
 						</div>
 					</div>
 				</div>

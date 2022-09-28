@@ -1,4 +1,3 @@
-import React from 'react';
 import { IoSchoolOutline } from 'react-icons/io5';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
@@ -6,7 +5,7 @@ import { GrMedium } from 'react-icons/gr';
 import {
 	SiJavascript, SiNetlify, SiNodedotjs, SiMongodb, SiSpring, SiJava,
 	SiHtml5, SiFigma, SiTailwindcss, SiGit, SiUbuntu, SiNotion, SiGithub, SiSpotify,
-	SiUnsplash, SiCanva, SiVisualstudiocode,
+	SiUnsplash, SiCanva, SiVisualstudiocode, SiAndroidstudio
 } from 'react-icons/si';
 import { menu, experience } from '../assets/utils/Texts';
 import CartoonCardOutlined from '../components/CartoonCardOutlined';
@@ -14,7 +13,7 @@ import CartoonCardOutlined from '../components/CartoonCardOutlined';
 export default function Experience({ lang }) {
 	return (
 		<div id='experience' className='container mx-auto py-5 px-5 dark:text-white'>
-			<div className='lg:flex lg:h-screen lg:items-center'>
+			<div className='lg:flex lg:min-h-screen lg:items-center'>
 				<div>
 					<p className='text-2xl lg:text-3xl font-bold'>{menu[1][lang]}</p>
 					<div className='grid grid-cols-1 lg:grid-cols-2 gap-5 mt-3 text-lg lg:text-xl text-justify'>
@@ -81,6 +80,7 @@ export default function Experience({ lang }) {
 							<CartoonCardOutlined Items={() => (<SiUbuntu size='40' color='#df4916' />)} />
 							<CartoonCardOutlined Items={() => (<SiNotion size='40' color='black' />)} />
 							<CartoonCardOutlined Items={() => (<SiGithub size='40' color='black' />)} />
+							<CartoonCardOutlined Items={() => (<SiAndroidstudio size='40' color='#4285f4' />)} />
 							<CartoonCardOutlined Items={() => (<SiVisualstudiocode size='40' color='#0090d9' />)} />
 							<CartoonCardOutlined Background='bg-[#26bec9]' Items={() => (<SiCanva size='40' color='white' />)} />
 							<CartoonCardOutlined Background='bg-[#000]' Items={() => (<SiSpotify size='40' color='#1ed760' />)} />

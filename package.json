@@ -1,6 +1,6 @@
 {
   "name": "hectorsaldes",
-  "version": "0.3.0",
+  "version": "0.3.3",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^1.0.5",
