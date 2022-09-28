@@ -1,4 +1,3 @@
-import React from 'react';
 import { menu, work } from '../assets/utils/Texts';
 import CardCartoonFilled from '../components/CartoonCardFilled';
 import Badge from '../components/Badge';
@@ -9,9 +8,9 @@ export default function Work({ lang }) {
 		<div
 			id='work'
 			className='container mx-auto py-5 px-5 dark:text-white'>
-			<div className='lg:flex lg:h-screen lg:items-center'>
+			<div className='lg:flex lg:min-h-screen lg:items-center'>
 				<div className='text-lg lg:text-xl text-justify'>
-					<p className='font-bold'>{menu[3][lang]}</p>
+					<p className='text-2xl lg:text-3xl font-bold'>{menu[3][lang]}</p>
 					<div className='grid grid-cols-1 lg:grid-cols-2 gap-5 mt-3'>
 						{work.map((i, index) => (
 							<div key={index}>
@@ -34,11 +33,11 @@ export default function Work({ lang }) {
 												<p className='mb-3 text-stone-700 dark:text-stone-400'>
 													{worked[lang]}
 												</p>
-												{i.built.map((b, i) => (
-													<div key={i}>
-														<Badge text={b} />
-													</div>
-												))}
+												<div className='w-full flex flex-wrap justify-between'>
+													{i.built.map((b, i) => (
+														<div key={i}><Badge text={b} /></div>
+													))}
+												</div>
 											</div>
 										</a>
 									)}

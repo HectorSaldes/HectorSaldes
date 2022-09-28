@@ -81,7 +81,7 @@ export const about = [
 	},
 	{
 		es: 'Debido a que la ñ en español me daba problemas en algunas plataformas. Digamos que es mi nombre de usuario común. 😅',
-		en: "Due to the letter ñ in spanish it gave me problems in some platforms. Let's say that is my username common. 😅",
+		en: 'Due to the letter ñ in spanish it gave me problems in some platforms. Let\'s say that is my username common. 😅',
 	},
 	{
 		es: 'Te dejo mi lista de reproducción en ',
@@ -162,27 +162,21 @@ export const uses = [
 				colorText: 'dark:text-black',
 			},
 			{
-				name: 'Brawl Stars',
-				img: 'https://play-lh.googleusercontent.com/EiElcSrd6-o-19roiswSx0AZPzsq6qF3hUGHsSWDl5UVtj7G23DHkneM8ucwqyOmEg',
-				colorBackground: 'dark:bg-[#febe20]',
+				name: 'Slowly',
+				img: 'https://slowly.app/wp-content/themes/slowly/assets/img/logo.svg',
+				colorBackground: 'dark:bg-white',
 				colorText: 'dark:text-black',
 			},
 			{
-				name: 'Modern Combat 4',
-				img: 'https://only4gamers.xyz/wp-content/uploads/2019/05/Modern-Combat-4-Android-Icon.jpg',
-				colorBackground: 'dark:bg-[#3d3d3d]',
+				name: 'Scribd',
+				img: 'https://www.sociedaduruguaya.org/wp-content/uploads/2020/07/scribd.jpg',
+				colorBackground: 'dark:bg-[#20828d]',
 				colorText: '',
 			},
 			{
-				name: 'Fifa 14',
-				img: 'https://img.captain-droid.com/wp-content/uploads/2014/06/fifa-14-ea-sports-icon.png.webp',
-				colorBackground: 'dark:bg-[#389f21]',
-				colorText: 'dark:text-black',
-			},
-			{
-				name: 'Call of Duty Mobile',
-				img: 'https://play-lh.googleusercontent.com/WjXoRzJKWHJ_x52qWYA6ECM70bq3x0vwwYiBhzLXdOIHCo-obdUTztPbskEn0K8_wBs',
-				colorBackground: 'dark:bg-[#4eb3df]',
+				name: 'Instagram',
+				img: 'https://pbs.twimg.com/media/EK9dCmZVAAAaDME.jpg:large',
+				colorBackground: 'dark:bg-[#b13891]',
 				colorText: '',
 			},
 		],
@@ -226,15 +220,15 @@ export const uses = [
 				colorText: 'dark:text-[#d05397]',
 			},
 			{
-				name: 'Scribd',
-				img: 'https://www.sociedaduruguaya.org/wp-content/uploads/2020/07/scribd.jpg',
-				colorBackground: 'dark:bg-[#20828d]',
-				colorText: '',
-			},
-			{
 				name: 'YouTube',
 				img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/YouTube_social_white_square_%282017%29.svg/768px-YouTube_social_white_square_%282017%29.svg.png',
 				colorBackground: 'dark:bg-[#fe0000]',
+				colorText: '',
+			},
+			{
+				name: 'Discord',
+				img: 'https://logodownload.org/wp-content/uploads/2017/11/discord-logo-4-1.png',
+				colorBackground: 'dark:bg-[#5865f2]',
 				colorText: '',
 			},
 		],
@@ -251,18 +245,8 @@ export const uses = [
 				colorBackground: 'dark:bg-[#4286f5]',
 				colorText: '',
 			},
-			{
-				name: 'Discord',
-				img: 'https://logodownload.org/wp-content/uploads/2017/11/discord-logo-4-1.png',
-				colorBackground: 'dark:bg-[#5865f2]',
-				colorText: '',
-			},
-			{
-				name: 'Postman',
-				img: 'https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8',
-				colorBackground: 'dark:bg-[#ff6c38]',
-				colorText: '',
-			},
+
+
 			{
 				name: 'JetBrains',
 				img: 'https://pbs.twimg.com/profile_images/1276465732923129856/A_SdJ_cW_400x400.jpg',
@@ -335,6 +319,12 @@ export const uses = [
 			},
 		],
 	},
+	{
+		description: {
+			es: 'Esto es para la página ',
+			en: 'This for the site ',
+		},
+	},
 ];
 
 export const work = [
@@ -359,7 +349,7 @@ export const work = [
 		},
 		description: {
 			es: 'Estoy empezando a tomarle el gusto por la escritura, por lo que estoy creando contenido en publicaciones de Medium, para diferentes enfoques no solo tecnológicos.',
-			en: "I'm starting to get a taste for writing, so I'm creating content in Medium publications, for different approaches not only technological.",
+			en: 'I\'m starting to get a taste for writing, so I\'m creating content in Medium publications, for different approaches not only technological.',
 		},
 		link: 'https://medium.com/@HectorSaldes',
 		built: ['Medium'],
@@ -383,14 +373,23 @@ export const contact = [
 	{ es: '¿Charlar un rato?', en: 'Chat for a while?' },
 	{
 		es: 'Puedes mandarme un mensaje ya sea para una oportunidad de trabajo, un consejo, ayuda motivacional, o para platicar un rato de algún tema random. No dudes en hacerlo, puedes hacerlo con confianza y soy muy abierto.',
-		en: "You can send me a message for a job opportunity, an advice, motivational help, or for char for a while about any random topic. Don't doubt do it, you can do it with confidence and I am very free.",
+		en: 'You can send me a message for a job opportunity, an advice, motivational help, or for char for a while about any random topic. Don\'t doubt do it, you can do it with confidence and I am very free.',
 	},
 	{
 		es: 'Intentaré responderte a la velocidad de la luz ⚡🏃‍♂️, dije lo intentaré, jsjs.',
 		en: 'I will try to answer to speed of the light  ⚡🏃‍♂️, I said I will try, haha.',
 	},
 	{ es: '¡Manda un saludo!', en: 'Send a greeting!' },
+];
+
+export const snack = [
 	{
+		es: '¿Diseño incorrecto?, dímelo en los issues de GitHub aquí 🧑‍🎨',
+		en: 'Incorrect design?, tell me on the issues on GitHub here 🧑‍🎨',
+	}, {
+		es: '¿Quieres dejarme un comentario sobre mi CV?, aquí 📝',
+		en: 'Do you want to let me a comment about my resume?, here 📝',
+	}, {
 		es: 'Página web escrita desde un teclado con amor. Hector 💥',
 		en: 'Web page written from a keyboard with love. Hector 💥',
 	},
