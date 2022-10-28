@@ -1,6 +1,6 @@
 import { IoSchoolOutline } from 'react-icons/io5';
 import { CgWorkAlt } from 'react-icons/cg';
-import { FaReact } from 'react-icons/fa';
+import { FaReact, FaBootstrap } from 'react-icons/fa';
 import { GrMedium } from 'react-icons/gr';
 import {
 	SiJavascript, SiNetlify, SiNodedotjs, SiMongodb, SiSpring, SiJava,
@@ -28,7 +28,7 @@ export default function Experience({ lang }) {
 								</div>
 								<div>
 									<p className='font-semibold'>Universidad Tecnológica Emiliano Zapata del Estado de Morelos</p>
-									<p className='italic text-gray-600 dark:text-gray-400'>2019 - 2023 ({experience[5][lang]})</p>
+									<p className='italic text-gray-600 dark:text-gray-400'>2019 - 2023 ({experience[6][lang]})</p>
 									<p>{experience[1][lang]}</p>
 								</div>
 							</div>
@@ -38,7 +38,6 @@ export default function Experience({ lang }) {
 									<div className='rounded-full h-10 w-10 bg-green-600'>
 										<IoSchoolOutline className='w-full h-full p-2 text-white' />
 									</div>
-									<div className='h-auto mx-auto w-1 bg-green-700'></div>
 								</div>
 								<div>
 									<p className='font-semibold'>Colegio Nacional de Educación Profesional Técnica</p>
@@ -49,11 +48,14 @@ export default function Experience({ lang }) {
 						</div>
 						<div>
 							<p className='mt-5 text-2xl font-bold uppercase'>{experience[3][lang]}</p>
+
+
 							<div className='flex mt-6'>
 								<div className='flex-col mr-5'>
 									<div className='rounded-full h-10 w-10 bg-yellow-500'>
 										<CgWorkAlt className='w-full h-full p-2 text-white' />
 									</div>
+									<div className='h-full mx-auto w-1 bg-yellow-500'></div>
 								</div>
 								<div>
 									<p className='font-semibold'>Novopatent I.S.S.C.</p>
@@ -61,10 +63,27 @@ export default function Experience({ lang }) {
 									<p>{experience[4][lang]}</p>
 								</div>
 							</div>
+
+
+							<div className='flex mt-6'>
+								<div className='flex-col mr-5'>
+									<div className='rounded-full h-10 w-10 bg-yellow-500'>
+										<CgWorkAlt className='w-full h-full p-2 text-white' />
+									</div>
+								</div>
+								<div>
+									<p className='font-semibold'>Viajemos a Morelos</p>
+									<p className='italic text-gray-600 dark:text-gray-400'>2018 - 2020</p>
+									<p>{experience[5][lang]}</p>
+								</div>
+							</div>
+
+
+
 						</div>
 					</div>
 					<div>
-						<p className='my-5 text-xl font-bold uppercase'>{experience[6][lang]}</p>
+						<p className='my-5 text-xl font-bold uppercase'>{experience[7][lang]}</p>
 						<div className='flex justify-around flex-wrap text-center'>
 							<CartoonCardOutlined Background='bg-[#202020]' Items={() => (<FaReact size='40' title={'hola'} color='5ccfee' />)} />
 							<CartoonCardOutlined Background='bg-[#202020]' Items={() => (<SiJavascript size='40' color='yellow' />)} />
@@ -82,6 +101,7 @@ export default function Experience({ lang }) {
 							<CartoonCardOutlined Items={() => (<SiGithub size='40' color='black' />)} />
 							<CartoonCardOutlined Items={() => (<SiAndroidstudio size='40' color='#4285f4' />)} />
 							<CartoonCardOutlined Items={() => (<SiVisualstudiocode size='40' color='#0090d9' />)} />
+							<CartoonCardOutlined Background='bg-[#7a11f7]' Items={() => (<FaBootstrap size='40' color='white' />)} />
 							<CartoonCardOutlined Background='bg-[#26bec9]' Items={() => (<SiCanva size='40' color='white' />)} />
 							<CartoonCardOutlined Background='bg-[#000]' Items={() => (<SiSpotify size='40' color='#1ed760' />)} />
 							<CartoonCardOutlined Background='bg-[#000]' Items={() => (<GrMedium size='40' color='white' />)} />

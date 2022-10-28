@@ -107,6 +107,9 @@ export const experience = [
 	{
 		es: 'Desarrollé una plataforma web para la consulta de propiedad intelectual.',
 		en: 'I developed a platform web for the consulting of intellectual property.',
+	},{
+		es: 'Diseñé flyers para publicidad como eventos, reuniones o fiestas de hoteles.',
+		en: 'I designed flyers for publicity as events, meetings and parties of hotels',
 	},
 	{
 		es: 'actual',
