@@ -4,7 +4,7 @@ Hello!, say hello!
 </h1>
 
 <p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=JetBrains&weight=700&duration=2000&pause=1000&color=000000&background=FFD65A&center=true&vCenter=true&width=435&lines=HectorSaldes+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB" alt="Typing SVG" /></a>
+<a href="https://hectorsaldes.netlify.app/"><img src="https://readme-typing-svg.herokuapp.com?font=JetBrains&weight=700&duration=2000&pause=1000&color=000000&background=FFD65A&center=true&vCenter=true&width=435&lines=HectorSaldes+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB" alt="Typing SVG" /></a>
 </p>
 
 <h3>About me</h3>
