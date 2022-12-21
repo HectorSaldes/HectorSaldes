@@ -3,8 +3,9 @@ Hello!, say hello!
 <img src="./src/assets/img/eyes.gif" alt="hand" height="50" width="50"/>
 </h1>
 
-<h3>About me</h3>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains&weight=700&duration=2000&pause=1000&color=000000&background=FFD65A&center=true&vCenter=true&width=435&lines=HectorSaldes+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB)](https://git.io/typing-svg)
 
+<h3>About me</h3>
 - 🎯 I am discovering new things.
 - 🌌 I love web applications.
 - 🤯 I like to be creative
