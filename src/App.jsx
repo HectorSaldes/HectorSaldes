@@ -7,6 +7,7 @@ import Work from './pages/Work';
 import Contact from './pages/Contact';
 import Uses from './pages/Uses';
 import Quotes from './pages/Quotes';
+import Certificates from './pages/Certificates';
 
 export default function App() {
 	const [lang, setLang] = useState('es');
@@ -26,6 +27,7 @@ export default function App() {
 			<Experience lang={lang} />
 			<Uses lang={lang} />
 			<Work lang={lang} />
+			<Certificates lang={lang} />
 			<Quotes lang={lang} />
 			<Contact lang={lang} />
 		</div>

@@ -5,7 +5,7 @@ import { GrMedium } from 'react-icons/gr';
 import {
 	SiJavascript, SiNetlify, SiNodedotjs, SiMongodb, SiSpring, SiJava,
 	SiHtml5, SiFigma, SiTailwindcss, SiGit, SiUbuntu, SiNotion, SiGithub, SiSpotify,
-	SiUnsplash, SiCanva, SiVisualstudiocode, SiAndroidstudio
+	SiUnsplash, SiCanva, SiVisualstudiocode, SiAndroidstudio, SiRailway
 } from 'react-icons/si';
 import { menu, experience } from '../assets/utils/Texts';
 import CartoonCardOutlined from '../components/CartoonCardOutlined';
@@ -85,6 +85,7 @@ export default function Experience({ lang }) {
 					<div>
 						<p className='my-5 text-xl font-bold uppercase'>{experience[7][lang]}</p>
 						<div className='flex justify-around flex-wrap text-center'>
+							<CartoonCardOutlined Background='bg-[#13111c]' Items={() => (<SiRailway size='40' color='#fff' />)} />
 							<CartoonCardOutlined Background='bg-[#202020]' Items={() => (<FaReact size='40' title={'hola'} color='5ccfee' />)} />
 							<CartoonCardOutlined Background='bg-[#202020]' Items={() => (<SiJavascript size='40' color='yellow' />)} />
 							<CartoonCardOutlined Background='bg-[#1e1e1e]' Items={() => (<SiFigma size='40' color='#f34e1e' />)} />

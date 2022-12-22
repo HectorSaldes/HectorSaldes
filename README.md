@@ -26,6 +26,7 @@ Hello!, say hello!
 
 <h3>Tools, Technologies and Languages that I use</h3>
 <div>
+<img src="https://img.shields.io/badge/Railway-13111c?style=for-the-badge&logo=railway&logoColor=fff"/>
 <img src="https://img.shields.io/badge/React-202020?style=for-the-badge&logo=react&logoColor=5ccfee"/>
 <img src="https://img.shields.io/badge/JavaScript-202020?style=for-the-badge&logo=javascript&logoColor=yellow"/>
 <img src="https://img.shields.io/badge/Netlify-2f393b?style=for-the-badge&logo=Netlify"/>

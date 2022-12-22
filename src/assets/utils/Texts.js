@@ -1,3 +1,44 @@
+import PlatziTerminal from '../../assets/img/certificates/platzi-terminal.jpg';
+import EdteamTerminal from '../../assets/img/certificates/edteam-terminal.png';
+import EdteamPython from '../../assets/img/certificates/edteam-python.png';
+import EdteamReact from '../../assets/img/certificates/edteam-react.png';
+import EdteamNotion from '../../assets/img/certificates/edteam-notion.png';
+import UdemyJsmoderno from '../../assets/img/certificates/udemy-jsmoderno.jpg';
+import MongoDB from '../../assets/img/certificates/mongo-db.jpg';
+import CNAPython from '../../assets/img/certificates/cna-python.jpg';
+import CNAIOT from '../../assets/img/certificates/cna-iot.jpg';
+
+export const certificates = [
+	{
+		name: 'Platzi | Curso de Introducción a la Terminal y Línea de Comandos',
+		image: PlatziTerminal,
+	}, {
+		name: 'EDTeam | Introducción a la terminal',
+		image: EdteamTerminal,
+	}, {
+		name: 'EDTeam | Python desde cero',
+		image: EdteamPython,
+	},{
+		name: 'EDTeam | React desde cero',
+		image: EdteamReact,
+	},{
+		name: 'EDTeam | Equipos súper productivos con Notion',
+		image: EdteamNotion,
+	},{
+		name: 'Udemy | JavaScript Moderno Guía Definitiva Construye +20 Proyectos',
+		image: UdemyJsmoderno,
+	},{
+		name: 'MongoDB | M001: MongoDB Basics',
+		image: MongoDB,
+	},{
+		name: 'CNA | PCAP: Programming Essentials in Python',
+		image: CNAPython,
+	},{
+		name: 'CNA | Introducción a IoT',
+		image: CNAIOT,
+	},
+];
+
 export const menu = [
 	{
 		es: 'Sobre mi 👨‍💻',
@@ -107,7 +148,7 @@ export const experience = [
 	{
 		es: 'Desarrollé una plataforma web para la consulta de propiedad intelectual.',
 		en: 'I developed a platform web for the consulting of intellectual property.',
-	},{
+	}, {
 		es: 'Diseñé flyers para publicidad como eventos, reuniones o fiestas de hoteles.',
 		en: 'I designed flyers for publicity as events, meetings and parties of hotels',
 	},
