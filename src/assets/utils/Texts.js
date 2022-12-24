@@ -1,4 +1,5 @@
 import PlatziTerminal from '../../assets/img/certificates/platzi-terminal.jpg';
+import PlatziVueIntroduccion from '../../assets/img/certificates/platzi-vue-fundamentos.jpg';
 import EdteamTerminal from '../../assets/img/certificates/edteam-terminal.png';
 import EdteamPython from '../../assets/img/certificates/edteam-python.png';
 import EdteamReact from '../../assets/img/certificates/edteam-react.png';
@@ -7,11 +8,15 @@ import UdemyJsmoderno from '../../assets/img/certificates/udemy-jsmoderno.jpg';
 import MongoDB from '../../assets/img/certificates/mongo-db.jpg';
 import CNAPython from '../../assets/img/certificates/cna-python.jpg';
 import CNAIOT from '../../assets/img/certificates/cna-iot.jpg';
+import OracleMentorias  from '../../assets/img/certificates/oracle-mentorias.jpg';
 
 export const certificates = [
 	{
 		name: 'Platzi | Curso de Introducción a la Terminal y Línea de Comandos',
 		image: PlatziTerminal,
+	},{
+		name: 'Platzi | Curso de Vue.js: Introducción y Fundamentos',
+		image: PlatziVueIntroduccion,
 	}, {
 		name: 'EDTeam | Introducción a la terminal',
 		image: EdteamTerminal,
@@ -36,6 +41,9 @@ export const certificates = [
 	},{
 		name: 'CNA | Introducción a IoT',
 		image: CNAIOT,
+	},{
+		name: 'Oracle | Mentorías de Oracle Academy',
+		image: OracleMentorias,
 	},
 ];
 
