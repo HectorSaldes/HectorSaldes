@@ -1,6 +1,8 @@
+import ReactGA from 'react-ga4';
 import { menu, uses } from '../assets/utils/Texts';
 
 export default function Uses({ lang }) {
+	ReactGA.send({ hitType: "pageview", page: "/#uses" });
 	return (
 		<div id='uses' className='container mx-auto py-5 px-5 dark:text-white'>
 			<div className='lg:flex lg:min-h-screen lg:items-center'>

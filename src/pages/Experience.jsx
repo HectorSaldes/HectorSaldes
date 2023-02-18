@@ -1,3 +1,4 @@
+import ReactGA from 'react-ga4';
 import { IoSchoolOutline } from 'react-icons/io5';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact, FaBootstrap } from 'react-icons/fa';
@@ -11,6 +12,7 @@ import { menu, experience } from '../assets/utils/Texts';
 import CartoonCardOutlined from '../components/CartoonCardOutlined';
 
 export default function Experience({ lang }) {
+	ReactGA.send({ hitType: "pageview", page: "/#experience" });
 	return (
 		<div id='experience' className='container mx-auto py-5 px-5 dark:text-white'>
 			<div className='lg:flex lg:min-h-screen lg:items-center'>
@@ -48,8 +50,6 @@ export default function Experience({ lang }) {
 						</div>
 						<div>
 							<p className='mt-5 text-2xl font-bold uppercase'>{experience[3][lang]}</p>
-
-
 							<div className='flex mt-6'>
 								<div className='flex-col mr-5'>
 									<div className='rounded-full h-10 w-10 bg-yellow-500'>

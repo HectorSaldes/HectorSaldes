@@ -1,9 +1,11 @@
+import ReactGA from "react-ga4";
 import { menu, about } from '../assets/utils/Texts';
 import MED from '../assets/img/MED.png';
 import MER from '../assets/img/MER.png';
 import CartoonImageOutlined from '../components/CartoonImageOutlined';
 
 export default function About({ lang }) {
+	ReactGA.send({ hitType: "pageview", page: "/#about" });
 	return (
 		<div id='about' className='container mx-auto py-5 px-5 dark:text-white'>
 			<div className='lg:flex lg:min-h-screen lg:items-center'>
