@@ -1,4 +1,5 @@
 import PlatziTerminal from '../../assets/img/certificates/platzi-terminal.jpg';
+import PlatziCursoGratisProgramacion from '../../assets/img/certificates/platzi-curso-gratis-programacion.jpg';
 import PlatziVueIntroduccion from '../../assets/img/certificates/platzi-vue-fundamentos.jpg';
 import EdteamTerminal from '../../assets/img/certificates/edteam-terminal.png';
 import EdteamPython from '../../assets/img/certificates/edteam-python.png';
@@ -11,6 +12,10 @@ import CNAIOT from '../../assets/img/certificates/cna-iot.jpg';
 import OracleMentorias  from '../../assets/img/certificates/oracle-mentorias.jpg';
 
 export const certificates = [
+	{
+		name: 'Platzi | Nuevo Curso Gratis de Programación Básica',
+		image: PlatziCursoGratisProgramacion,
+	},
 	{
 		name: 'Platzi | Curso de Introducción a la Terminal y Línea de Comandos',
 		image: PlatziTerminal,
@@ -107,9 +112,9 @@ export const about = [
 		en: 'Hello!, my name is ',
 	},
 	{
-		es: ', actualmente tengo 21 años, soy estudiante, amante del desarrollo de aplicaciones o páginas en la web con herramientas tecnológicas, así como por el diseño web. 🎒',
+		es: ', actualmente tengo 22 años, soy estudiante, amante del desarrollo de aplicaciones o páginas en la web con herramientas tecnológicas, así como por el diseño web. 🎒',
 
-		en: ', currently I am 21 years old, I am student, apps development or web pages lover with technologies tools, and web design as well. 🎒',
+		en: ', currently I am 22 years old, I am student, apps development or web pages lover with technologies tools, and web design as well. 🎒',
 	},
 	{
 		es: 'Me encanta la creación de contenido, la música clásica, visitar nuevos lugares, conocer nuevas personas, aprender en internet, ayudar a las personas, dedicar tiempo a mis amigos y familia, escribir y aprender cosas positivas. 🥳',
@@ -154,15 +159,15 @@ export const experience = [
 	},
 	{ es: 'Académica 📒', en: 'Academic 📒' },
 	{
+		es: 'Desarrollo de módulos en la plataforma web Verifica-t para la facturación electrónica en las empresas.',
+		en: 'Development of modules in the Verifica-t web platform for electronic invoicing in companies.',
+	},{
 		es: 'Desarrollé una plataforma web para la consulta de propiedad intelectual.',
 		en: 'I developed a platform web for the consulting of intellectual property.',
-	}, {
-		es: 'Diseñé flyers para publicidad como eventos, reuniones o fiestas de hoteles.',
-		en: 'I designed flyers for publicity as events, meetings and parties of hotels',
 	},
 	{
-		es: 'actual',
-		en: 'currently',
+		es: 'Diseñé flyers para publicidad como eventos, reuniones o fiestas de hoteles.',
+		en: 'I designed flyers for publicity as events, meetings and parties of hotels',
 	},
 	{
 		es: 'Tecnologías, herramientas y frameworks que uso',
@@ -185,15 +190,9 @@ export const uses = [
 			},
 			{
 				name: 'Addidas Running',
-				img: 'https://static.apkdojo.com/images/apps/adidas-running-run-tracker-icon.png',
+				img: 'https://play-lh.googleusercontent.com/OvUa9t26bXhCbKJDZK_RpRAnJFHOvr_HuD32Kb8MjULM2jDG_DD_ZoHZx_Du8ejqyAOI',
 				colorBackground: 'dark:bg-[#00999e]',
 				colorText: '',
-			},
-			{
-				name: 'VSCO',
-				img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/VSCO_Seal.svg/2048px-VSCO_Seal.svg.png',
-				colorBackground: '',
-				colorText: 'dark:text-black',
 			},
 			{
 				name: 'Pinterest',
@@ -212,18 +211,6 @@ export const uses = [
 				img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/150px-Google_%22G%22_Logo.svg.png',
 				colorBackground: 'dark:bg-white',
 				colorText: 'dark:text-black',
-			},
-			{
-				name: 'Slowly',
-				img: 'https://slowly.app/wp-content/themes/slowly/assets/img/logo.svg',
-				colorBackground: 'dark:bg-white',
-				colorText: 'dark:text-black',
-			},
-			{
-				name: 'Scribd',
-				img: 'https://www.sociedaduruguaya.org/wp-content/uploads/2020/07/scribd.jpg',
-				colorBackground: 'dark:bg-[#20828d]',
-				colorText: '',
 			},
 			{
 				name: 'Instagram',

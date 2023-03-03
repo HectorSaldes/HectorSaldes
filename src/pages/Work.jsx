@@ -1,8 +1,11 @@
+import ReactGA from 'react-ga4';
 import { menu, work } from '../assets/utils/Texts';
 import CardCartoonFilled from '../components/CartoonCardFilled';
 import Badge from '../components/Badge';
 
 export default function Work({ lang }) {
+	ReactGA.send({ hitType: "pageview", page: "/#work" });
+
 	const worked = { es: 'Contruido con:', en: 'Built it with:' };
 	return (
 		<div id='work' className='container mx-auto py-5 px-5 dark:text-white'>

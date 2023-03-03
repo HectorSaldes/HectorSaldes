@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import  ReactGA from 'react-ga4';
 import Navbar from './components/Navbar';
 import Presentation from './pages/Presentation';
 import About from './pages/About';
@@ -9,6 +10,7 @@ import Uses from './pages/Uses';
 import Quotes from './pages/Quotes';
 import Certificates from './pages/Certificates';
 
+ReactGA.initialize('G-ZH71KJGG59')
 export default function App() {
 	const [lang, setLang] = useState('es');
 	useEffect(() => {
