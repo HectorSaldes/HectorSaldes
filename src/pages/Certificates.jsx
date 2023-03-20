@@ -22,7 +22,7 @@ export default function Certificates({ lang }) {
 							<button className='absolute left-0 top-1/2 transform -translate-y-1/2 bg-black dark:bg-gray-700 bg-opacity-50 text-white lg:p-2 rounded-full' onClick={handlePrev}>
 								<BsFillCaretLeftFill size="40"/>
 							</button>
-							<img className='lg:w-1/2 lg:h-3/4 object-cover' src={images[currentImage].image} alt={`Image ${currentImage + 1}`} />
+							<img className='lg:w-1/2 lg:h-3/4 object-cover' src={images[currentImage].image} />
 							<button className='absolute right-0 top-1/2 transform -translate-y-1/2 bg-black dark:bg-gray-700 bg-opacity-50 text-white lg:p-2 rounded-full' onClick={handleNext}>
 								<BsFillCaretRightFill size="40"/>
 							</button>
