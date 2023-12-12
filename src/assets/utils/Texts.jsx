@@ -1,56 +1,4 @@
-import PlatziTerminal from '../../assets/img/certificates/platzi-terminal.jpg';
-import PlatziCursoGratisProgramacion from '../../assets/img/certificates/platzi-curso-gratis-programacion.jpg';
-import PlatziVueIntroduccion from '../../assets/img/certificates/platzi-vue-fundamentos.jpg';
-import EdteamTerminal from '../../assets/img/certificates/edteam-terminal.png';
-import EdteamPython from '../../assets/img/certificates/edteam-python.png';
-import EdteamReact from '../../assets/img/certificates/edteam-react.png';
-import EdteamNotion from '../../assets/img/certificates/edteam-notion.png';
-import UdemyJsmoderno from '../../assets/img/certificates/udemy-jsmoderno.jpg';
-import MongoDB from '../../assets/img/certificates/mongo-db.jpg';
-import CNAPython from '../../assets/img/certificates/cna-python.jpg';
-import CNAIOT from '../../assets/img/certificates/cna-iot.jpg';
-import OracleMentorias  from '../../assets/img/certificates/oracle-mentorias.jpg';
-
-export const certificates = [
-	{
-		name: 'Platzi | Nuevo Curso Gratis de Programación Básica',
-		image: PlatziCursoGratisProgramacion,
-	},
-	{
-		name: 'Platzi | Curso de Introducción a la Terminal y Línea de Comandos',
-		image: PlatziTerminal,
-	},{
-		name: 'Platzi | Curso de Vue.js: Introducción y Fundamentos',
-		image: PlatziVueIntroduccion,
-	}, {
-		name: 'EDTeam | Introducción a la terminal',
-		image: EdteamTerminal,
-	}, {
-		name: 'EDTeam | Python desde cero',
-		image: EdteamPython,
-	},{
-		name: 'EDTeam | React desde cero',
-		image: EdteamReact,
-	},{
-		name: 'EDTeam | Equipos súper productivos con Notion',
-		image: EdteamNotion,
-	},{
-		name: 'Udemy | JavaScript Moderno Guía Definitiva Construye +20 Proyectos',
-		image: UdemyJsmoderno,
-	},{
-		name: 'MongoDB | M001: MongoDB Basics',
-		image: MongoDB,
-	},{
-		name: 'CNA | PCAP: Programming Essentials in Python',
-		image: CNAPython,
-	},{
-		name: 'CNA | Introducción a IoT',
-		image: CNAIOT,
-	},{
-		name: 'Oracle | Mentorías de Oracle Academy',
-		image: OracleMentorias,
-	},
-];
+const MY_AGE = Math.floor((new Date() - new Date(2001, 1, 5)) / 3.15576e+10);
 
 export const menu = [
 	{
@@ -93,57 +41,54 @@ export const menu = [
 
 export const presentation = [
 	{
-		es: '¡Hola!, mucho gusto 👋, mi nombre es',
-		en: 'Hello!, nice to meet you 👋, my name is',
+		es: '¡Hola!, un placer conocerte 👋, soy',
+		en: 'Hello!, nice to meet you 👋, I am',
 	},
 	{
-		es: 'Y... me encanta descrubrir y crear cosas tecnológicas 🎯',
-		en: 'And... I love discovering and create technologies things 🎯',
+		es: 'Un apasionado del desarrollo de aplicaciones. Me encanta convertir ideas en soluciones tecnológicas elegantes y que ayuden a los demás. 🎯',
+		en: 'A passionate about application development. I love turning ideas into elegant technological solutions that help others. 🎯',
 	},
 	{
-		es: 'Actualmente soy estudiante de desarrollo de software en la universidad, mis desarrollos favoritos son cuando busco una solución que me ayude a mi y a los demás, también me gusta ser creativo y aprender nuevas cosas. 🤯',
-		en: 'Currently I am a software development student at university, my favorites developments are when I am looking for a solution that helps me and helps others, also I like to be creative and learn new things. 🤯',
+		es: 'Mi pasión es dar vida a las ideas creando aplicaciones que no solo resuelven problemas, sino que también ayuden a los demás. Soy un alguien que busca aprender día a día, siempre en búsqueda de nuevas aventuras, tanto profesionales como personales. En mi tiempo libre, me sumerjo en diversos cursos, disfruto de la compañía de mis amigos y de salir a conocer nuevos lugares. 🤓',
+		en: 'My passion is to give life to ideas by creating applications that not only solve problems, but also help others. I am someone who seeks to learn day by day, always in search of new adventures, both professional and personal. In my free time, I immerse myself in various courses, I enjoy the company of my friends and going out to discover new places. 🤓',
+	},
+	{
+		es: 'Lugares donde podrás encontrarme 👇🏼🌎',
+		en: 'Places where you can find me 👇🏼🌎',
 	},
 ];
 
 export const about = [
 	{
-		es: '¡Hola!, mi nombre es ',
-		en: 'Hello!, my name is ',
+		es:
+			`¡Hola!, mi nombre es <span class='font-bold dark:text-yellow-300 duration-1000'>Héctor Saldaña Espinoza</span>,
+			 actualmente tengo ${MY_AGE} años, soy un amante del desarrollo de aplicaciones o páginas en la web con herramientas tecnológicas, así como por el diseño web. 🎒
+			 <br />
+			 <br />
+			 Me encanta mucho escuchar todo tipo de música, en especial las baladas en inglés, la clásica, rock, boleros y el rap, me gusta visitar nuevos lugares como también conocer nuevas personas, me encanta la ciudad, me gusta aprender y ser autodidacta aprendiendo nuevas cosas en internet como en cursos, videos y blogs.
+			 <br />
+			 <br />
+			 La creación de contenido, leer libros (aunque necesito leer más), ver películas de comedia o sobre guerras mundiales, series interesantes, jugar videojuegos, hacer ejercicio, pasar tiempo de caridad con mi familia, novia y amigos, me encanta escribir, así como también ayudar a las demás personas. <strong>Dime, ¿tenemos algo en común? 🥳</strong>
+		`,
+		en:
+			`
+			Hello!, my name is <span class='font-bold dark:text-yellow-300 duration-1000'>Héctor Saldaña Espinoza</span>,
+			I am currently ${MY_AGE} years old, I am a lover of application development or pages on the web with technological tools, as well as web design. 🎒
+			<br />
+			<br />
+			I really love listening to all kinds of music, especially English ballads, classical, rock, boleros and rap, I like to visit new places as well as meet new people, I love the city, I like to learn and be self-taught learning new things on the internet as in courses, videos and blogs.
+			<br />
+			<br />
+			The creation of content, reading books (although I need to read more), watching comedy movies or about world wars, interesting series, playing video games, exercising, spending charity time with my family, girlfriend and friends, I love writing, as well as helping other people. <strong>Tell me, do we have something in common? 🥳</strong>
+		`,
 	},
 	{
-		es: ', actualmente tengo 22 años, soy estudiante, amante del desarrollo de aplicaciones o páginas en la web con herramientas tecnológicas, así como por el diseño web. 🎒',
-
-		en: ', currently I am 22 years old, I am student, apps development or web pages lover with technologies tools, and web design as well. 🎒',
+		es: `La palabra <strong class='dark:text-yellow-300 duration-1000'>Saldes</strong>, la cree en combinación de mis dos apellidos <span class='font-bold dark:text-yellow-300 duration-1000'>Sal</span>daña y <span class='font-bold dark:text-yellow-500 duration-1000'>Es</span>pinoza. Debido a que la ñ en español me daba problemas en algunas plataformas y sistemas. Digamos que es mi nombre de usuario común. 😅`,
+		en: `The word <strong class='dark:text-yellow-300 duration-1000'>Saldes</strong>, I created in combination of my two surnames. Due to the letter ñ in spanish it gave me problems in some platforms and systems. Let's say that is my username common. 😅`,
 	},
 	{
-		es: 'Me encanta la creación de contenido, la música clásica, visitar nuevos lugares, conocer nuevas personas, aprender en internet, ayudar a las personas, dedicar tiempo a mis amigos y familia, escribir y aprender cosas positivas. 🥳',
-		en: 'I love the creation of content, classic music, visiting new places, meeting new people, learning on internet, to help others, spending time with my friends and family, writing and learning positive things. 🥳',
-	},
-	{
-		es: 'Me gusta usar herramientas que me ayuden a facilitar las tareas como ',
-		en: 'I like using tools that help me facilities tasks like ',
-	},
-	{ es: ', entre otras. 🔧', en: ', among others. 🔧' },
-	{
-		es: 'Me gusta desarrollar en tecnologías como ',
-		en: 'I like developing in technologies like ',
-	},
-	{
-		es: 'La palabra Saldes, la cree en combinación de mis dos apellidos ',
-		en: 'The word Saldes, I created in combination of my two surnames ',
-	},
-	{
-		es: 'Debido a que la ñ en español me daba problemas en algunas plataformas. Digamos que es mi nombre de usuario común. 😅',
-		en: 'Due to the letter ñ in spanish it gave me problems in some platforms. Let\'s say that is my username common. 😅',
-	},
-	{
-		es: 'Te dejo mi lista de reproducción en ',
-		en: 'I let you my playlist on ',
-	},
-	{
-		es: 'que uso casi a diario, quiza tenemos algunas cosas en común 😝🎶, solo da clic aquí.',
-		en: 'that I use every day, maybe we have some things in common 😝🎶, just click here.',
+		es: 'Tecnologías, herramientas y frameworks que uso',
+		en: 'Technologies, tools and frameworks that I use',
 	},
 ];
 
@@ -161,7 +106,7 @@ export const experience = [
 	{
 		es: 'Desarrollo de módulos en la plataforma web Verifica-t para la facturación electrónica en las empresas.',
 		en: 'Development of modules in the Verifica-t web platform for electronic invoicing in companies.',
-	},{
+	}, {
 		es: 'Desarrollé una plataforma web para la consulta de propiedad intelectual.',
 		en: 'I developed a platform web for the consulting of intellectual property.',
 	},
@@ -169,10 +114,7 @@ export const experience = [
 		es: 'Diseñé flyers para publicidad como eventos, reuniones o fiestas de hoteles.',
 		en: 'I designed flyers for publicity as events, meetings and parties of hotels',
 	},
-	{
-		es: 'Tecnologías, herramientas y frameworks que uso',
-		en: 'Technologies, tools and frameworks that I use',
-	},
+
 ];
 
 export const uses = [

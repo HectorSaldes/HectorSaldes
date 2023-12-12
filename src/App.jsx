@@ -7,10 +7,9 @@ import Experience from './pages/Experience';
 import Work from './pages/Work';
 import Contact from './pages/Contact';
 import Uses from './pages/Uses';
-import Quotes from './pages/Quotes';
-import Certificates from './pages/Certificates';
 
 ReactGA.initialize('G-ZH71KJGG59')
+
 export default function App() {
 	const [lang, setLang] = useState('es');
 	useEffect(() => {
@@ -22,15 +21,13 @@ export default function App() {
 	}, []);
 
 	return (
-		<div className='font-jetbrains dark:bg-gray-900'>
+		<div className='font-jetbrains dark:bg-gray-800'>
 			<Navbar lang={lang} setLang={setLang} />
 			<Presentation lang={lang} />
 			<About lang={lang} />
 			<Experience lang={lang} />
 			<Uses lang={lang} />
 			<Work lang={lang} />
-			<Certificates lang={lang} />
-			<Quotes lang={lang} />
 			<Contact lang={lang} />
 		</div>
 	);

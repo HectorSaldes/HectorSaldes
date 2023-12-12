@@ -17,7 +17,7 @@ export default function Work({ lang }) {
 							<div key={index}>
 								<CardCartoonFilled
 									Items={() => (
-										<a href={i.link} target='_blank' rel='noreferrer'>
+										<a href={i.link} target='_blank' rel='noreferrer' className='cursor-no-drop'>
 											<img className='w-full h-32 object-cover rounded-t-xl' src={i.img} alt={i.title} />
 											<div className='p-5'>
 												<h5 className='font-bold text-2xl mb-2'>{i.title[lang]}</h5>
