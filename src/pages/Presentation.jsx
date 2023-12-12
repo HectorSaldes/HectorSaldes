@@ -74,7 +74,7 @@ export default function Presentation({ lang }) {
 				<div>
 					<div className='text-lg lg:text-2xl font-medium text-justify lg:text-center'>
 						<p>{presentation[0][lang]}</p> <br/>
-						<h1 className='text-5xl lg:text-7xl font-bold lg:font-extrabold'>Hector Saldaña Espinoza</h1> <br/>
+						<h1 className='text-5xl lg:text-7xl font-bold lg:font-extrabold'>Héctor Saldaña Espinoza</h1> <br/>
 						<p>{presentation[1][lang]}</p> <br/>
 						<p>{presentation[2][lang]}</p> <br/>
 						<p>{presentation[3][lang]}</p> <br/>

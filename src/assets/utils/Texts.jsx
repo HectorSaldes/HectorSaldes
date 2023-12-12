@@ -1,3 +1,4 @@
+const MY_AGE = Math.floor((new Date() - new Date(2001, 1, 5)) / 3.15576e+10);
 
 export const menu = [
 	{
@@ -52,33 +53,42 @@ export const presentation = [
 		en: 'My passion is to give life to ideas by creating applications that not only solve problems, but also help others. I am someone who seeks to learn day by day, always in search of new adventures, both professional and personal. In my free time, I immerse myself in various courses, I enjoy the company of my friends and going out to discover new places. 🤓',
 	},
 	{
-		es:'Lugares donde podrás encontrarme 👇🏼🌎',
-		en:'Places where you can find me 👇🏼🌎',
-	}
+		es: 'Lugares donde podrás encontrarme 👇🏼🌎',
+		en: 'Places where you can find me 👇🏼🌎',
+	},
 ];
 
 export const about = [
 	{
 		es:
-			`¡Hola!, mi nombre es <span class='font-bold dark:text-yellow-300 duration-1000'>Hector Saldaña Espinoza</span>, actualmente tengo 22 años, soy estudiante, amante del desarrollo de aplicaciones o páginas en la web con herramientas tecnológicas, así como por el diseño web. 🎒
+			`¡Hola!, mi nombre es <span class='font-bold dark:text-yellow-300 duration-1000'>Héctor Saldaña Espinoza</span>,
+			 actualmente tengo ${MY_AGE} años, soy un amante del desarrollo de aplicaciones o páginas en la web con herramientas tecnológicas, así como por el diseño web. 🎒
 			 <br />
 			 <br />
-			 Me encanta la creación de contenido, la música clásica, visitar nuevos lugares, conocer nuevas personas, aprender en internet, ayudar a las personas, dedicar tiempo a mis amigos y familia, escribir y aprender cosas positivas. 🥳
+			 Me encanta mucho escuchar todo tipo de música, en especial las baladas en inglés, la clásica, rock, boleros y el rap, me gusta visitar nuevos lugares como también conocer nuevas personas, me encanta la ciudad, me gusta aprender y ser autodidacta aprendiendo nuevas cosas en internet como en cursos, videos y blogs.
 			 <br />
+			 <br />
+			 La creación de contenido, leer libros (aunque necesito leer más), ver películas de comedia o sobre guerras mundiales, series interesantes, jugar videojuegos, hacer ejercicio, pasar tiempo de caridad con mi familia, novia y amigos, me encanta escribir, así como también ayudar a las demás personas. <strong>Dime, ¿tenemos algo en común? 🥳</strong>
 		`,
 		en:
-			`Hello!, my name is <span class='font-bold dark:text-yellow-300 duration-1000'>Hector Saldaña Espinoza</span>, currently I am 22 years old, I am student, apps development or web pages lover with technologies tools, and web design as well. 🎒
+			`
+			Hello!, my name is <span class='font-bold dark:text-yellow-300 duration-1000'>Héctor Saldaña Espinoza</span>,
+			I am currently ${MY_AGE} years old, I am a lover of application development or pages on the web with technological tools, as well as web design. 🎒
 			<br />
 			<br />
-			I love the creation of content, classic music, visiting new places, meeting new people, learning on internet, to help others, spending time with my friends and family, writing and learning positive things. 🥳
-			<br/>
+			I really love listening to all kinds of music, especially English ballads, classical, rock, boleros and rap, I like to visit new places as well as meet new people, I love the city, I like to learn and be self-taught learning new things on the internet as in courses, videos and blogs.
+			<br />
+			<br />
+			The creation of content, reading books (although I need to read more), watching comedy movies or about world wars, interesting series, playing video games, exercising, spending charity time with my family, girlfriend and friends, I love writing, as well as helping other people. <strong>Tell me, do we have something in common? 🥳</strong>
 		`,
 	},
-
 	{
 		es: `La palabra <strong class='dark:text-yellow-300 duration-1000'>Saldes</strong>, la cree en combinación de mis dos apellidos <span class='font-bold dark:text-yellow-300 duration-1000'>Sal</span>daña y <span class='font-bold dark:text-yellow-500 duration-1000'>Es</span>pinoza. Debido a que la ñ en español me daba problemas en algunas plataformas y sistemas. Digamos que es mi nombre de usuario común. 😅`,
-
 		en: `The word <strong class='dark:text-yellow-300 duration-1000'>Saldes</strong>, I created in combination of my two surnames. Due to the letter ñ in spanish it gave me problems in some platforms and systems. Let\'s say that is my username common. 😅`,
+	},
+	{
+		es: 'Tecnologías, herramientas y frameworks que uso',
+		en: 'Technologies, tools and frameworks that I use',
 	},
 ];
 
@@ -96,7 +106,7 @@ export const experience = [
 	{
 		es: 'Desarrollo de módulos en la plataforma web Verifica-t para la facturación electrónica en las empresas.',
 		en: 'Development of modules in the Verifica-t web platform for electronic invoicing in companies.',
-	},{
+	}, {
 		es: 'Desarrollé una plataforma web para la consulta de propiedad intelectual.',
 		en: 'I developed a platform web for the consulting of intellectual property.',
 	},
@@ -104,10 +114,7 @@ export const experience = [
 		es: 'Diseñé flyers para publicidad como eventos, reuniones o fiestas de hoteles.',
 		en: 'I designed flyers for publicity as events, meetings and parties of hotels',
 	},
-	{
-		es: 'Tecnologías, herramientas y frameworks que uso',
-		en: 'Technologies, tools and frameworks that I use',
-	},
+
 ];
 
 export const uses = [

@@ -1,5 +1,5 @@
 import ReactGA from "react-ga4";
-import { menu, about, experience } from '../assets/utils/Texts';
+import { menu, about } from '../assets/utils/Texts';
 import ME from '../assets/img/ME.jpg';
 import CartoonImageOutlined from '../components/CartoonImageOutlined';
 import CartoonCardOutlined from '../components/CartoonCardOutlined';
@@ -25,8 +25,6 @@ const APPS = [
 	{ Icon: SiPostgresql, bg: 'bg-[#396c94]', color: '#fff' },
 	{ Icon: SiMongodb, bg: 'bg-[#1e2f39]', color: '#108b4b' },
 	{ Icon: SiMysql, bg: 'bg-[#08678e]', color: '#f29418' },
-	// { Icon: , bg: 'bg-[#]', color: '#' },
-
 	// Frameworks CSS
 	{ Icon: SiFigma, bg: 'bg-[#a55eff]', color: '#fff' },
 	{ Icon: SiTailwindcss, bg: 'bg-[#151c2c]', color: '#14b4c0' },
@@ -57,21 +55,22 @@ export default function About({ lang }) {
 					<div className='flex flex-col lg:flex-row text-lg lg:text-xl text-justify'>
 						<div className='w-full lg:w-1/2'>
 							<p dangerouslySetInnerHTML={{ __html: about[0][lang] }} />
-							<p className='my-5 text-xl font-bold uppercase'>{experience[7][lang]}</p>
-							<div className='flex justify-around flex-wrap text-center'>
-								{APPS.map((app, index) => (<CartoonCardOutlined Items={() => (<app.Icon color={app.color} size='40' />)} Background={app.bg} key={index} />))}
-							</div>
 						</div>
 						<div className='w-full lg:w-1/2 p-6'>
 							<div className='w-full h-full'>
 								<div className='flex justify-center'>
 									<div>
-										<div className='w-1/2 mx-auto'><CartoonImageOutlined Items={() => (<img src={ME} alt='Me in real life' className='rounded-full' />)} /></div>
+										<div className='w-1/2 mx-auto'><CartoonImageOutlined Items={() => (<img src={ME} alt='Me in real life' className='rounded-full' />)}/></div>
 										<p className='mt-3' dangerouslySetInnerHTML={{ __html: about[1][lang] }} />
 									</div>
 								</div>
 							</div>
 						</div>
+					</div>
+					<p className='my-5 text-xl font-bold uppercase'>{about[2][lang]}</p>
+					<div className='flex justify-around flex-wrap text-center'>
+						{APPS.map((app, index) => (
+							<CartoonCardOutlined Items={() => (<app.Icon color={app.color} size='40' />)} Background={app.bg} key={index} />))}
 					</div>
 				</div>
 			</div>

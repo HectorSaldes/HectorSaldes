@@ -3,7 +3,7 @@ import { snack } from '../assets/utils/Texts';
 const Snacks = ({ lang }) => (
 	<div className='text-black text-xs lg:text-base text-center '>
 		<div className='w-full grid grid-cols-2 gap-1'>
-			<a href='https://github.com/HectorSaldes/hectorsaldes/issues' target='_blank' rel='noreferrer'
+			<a href='https://github.com/HectorSaldes/hectorsaldes/issues/new?assignees=HectorSaldes&labels=bug&projects=&template=--error-design--.md&title=%F0%9F%93%8CError+Design' target='_blank' rel='noreferrer'
 			   className='col-span-2 lg:col-span-1 hover:animate-bounce'>
 				<div className='w-full sm:px-4 pb-3'>
 					<div className='px-4 py-3 bg-rose-500 rounded-lg'>
