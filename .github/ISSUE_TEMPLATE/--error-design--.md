@@ -1,14 +1,14 @@
 ---
-name: "\U0001F4CCError Design: "
+name: "\U0001F4CC Error Design: "
 about: Create a report to help me improve my design
-title: "\U0001F4CCError Design"
+title: "\U0001F4CC Error Design"
 labels: bug
 assignees: HectorSaldes
 
 ---
 
 **✍🏽 Describe the error**
-Here … 
+Here …
 
 
 **📷 Screenshots**

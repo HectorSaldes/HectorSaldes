@@ -1,8 +1,51 @@
 import ReactGA from "react-ga4";
-import { menu, about } from '../assets/utils/Texts';
-import MED from '../assets/img/MED.png';
-import MER from '../assets/img/MER.png';
+import { menu, about, experience } from '../assets/utils/Texts';
+import ME from '../assets/img/ME.jpg';
 import CartoonImageOutlined from '../components/CartoonImageOutlined';
+import CartoonCardOutlined from '../components/CartoonCardOutlined';
+import { SiAndroidstudio, SiCanva, SiFigma, SiGit, SiGithub, SiHtml5, SiJavascript, SiMongodb, SiNetlify, SiNodedotjs, SiNotion, SiDjango, SiSpotify, SiSpring, SiTailwindcss, SiUbuntu, SiUnsplash, SiVisualstudiocode, SiOracle, SiPostgresql, SiMysql, SiVuetify, SiGumroad } from 'react-icons/si';
+import { FaBootstrap, FaReact, FaVuejs, FaMediumM, FaPython } from 'react-icons/fa';
+import { DiJava } from 'react-icons/di';
+
+const APPS = [
+	// Dev
+	{ Icon: SiOracle, bg: 'bg-[#ed1d24]', color: '#fff' },
+	{ Icon: SiNetlify, bg: 'bg-[#2f393b]', color: '#00beae' },
+	// Languages
+	{ Icon: SiHtml5, bg: 'bg-[#f1491c]', color: 'white' },
+	{ Icon: FaReact, bg: 'bg-[#202020]', color: '#5ccfee' },
+	{ Icon: FaVuejs, bg: 'bg-[#08c384]', color: '#fff' },
+	{ Icon: SiJavascript, bg: 'bg-[#202020]', color: 'yellow' },
+	{ Icon: SiNodedotjs, bg: 'bg-[#303030]', color: '#7aa61b' },
+	{ Icon: DiJava, bg: 'bg-[#ed2025]', color: 'white' },
+	{ Icon: SiSpring, bg: 'bg-[#219945]', color: 'white' },
+	{ Icon: FaPython, bg: 'bg-[#3c77a8]', color: '#fff' },
+	{ Icon: SiDjango, bg: 'bg-[#113527]', color: '#fff' },
+	// DB
+	{ Icon: SiPostgresql, bg: 'bg-[#396c94]', color: '#fff' },
+	{ Icon: SiMongodb, bg: 'bg-[#1e2f39]', color: '#108b4b' },
+	{ Icon: SiMysql, bg: 'bg-[#08678e]', color: '#f29418' },
+	// { Icon: , bg: 'bg-[#]', color: '#' },
+
+	// Frameworks CSS
+	{ Icon: SiFigma, bg: 'bg-[#a55eff]', color: '#fff' },
+	{ Icon: SiTailwindcss, bg: 'bg-[#151c2c]', color: '#14b4c0' },
+	{ Icon: FaBootstrap, bg: 'bg-[#7a11f7]', color: 'white' },
+	{ Icon: SiVuetify, bg: 'bg-[#1d9af6]', color: 'white' },
+	// APPS
+	{ Icon: SiGit, bg: 'bg-[#000]', color: '#e5392d' },
+	{ Icon: SiUbuntu, bg: 'bg-[#000]', color: '#df4916' },
+	{ Icon: SiNotion, bg: 'bg-[#fff]', color: 'black' },
+	{ Icon: SiGithub, bg: 'bg-[#fff]', color: 'black' },
+	{ Icon: SiAndroidstudio, bg: 'bg-[#fff]', color: '#4285f4' },
+	{ Icon: SiVisualstudiocode, bg: 'bg-[#000]', color: '#0090d9' },
+	{ Icon: SiCanva, bg: 'bg-[#26bec9]', color: 'white' },
+	{ Icon: SiSpotify, bg: 'bg-[#000]', color: '#1ed760' },
+	{ Icon: FaMediumM, bg: 'bg-[#000]', color: 'white' },
+	{ Icon: SiUnsplash, bg: 'bg-[#000]', color: 'white' },
+	{ Icon: SiGumroad, bg: 'bg-[#ff93e9]', color: 'black' },
+
+]
 
 export default function About({ lang }) {
 	ReactGA.send({ hitType: "pageview", page: "/#about" });
@@ -11,62 +54,20 @@ export default function About({ lang }) {
 			<div className='lg:flex lg:min-h-screen lg:items-center'>
 				<div>
 					<p className='text-2xl lg:text-3xl font-bold'>{menu[0][lang]}</p>
-					<div className='flex flex-col lg:flex-row'>
-						<div className='w-full lg:w-1/2 text-lg lg:text-xl text-justify'>
-							<p>{about[0][lang]}
-								<span
-									className='font-bold dark:text-yellow-300 duration-1000'>Hector Saldaña Espinoza</span>
-								{about[1][lang]}
-							</p>
-							<br />
-							<p>{about[2][lang]}</p>
-							<br />
-							<p>
-								{about[3][lang]}
-								<span className='font-bold duration-1000'>Notion</span>,{' '}
-								<span className='font-bold dark:text-yellow-600 duration-1000'>LucidChart</span>,{' '}
-								<span className='font-bold dark:text-purple-600 duration-1000'>Canva</span>,{' '}
-								<span className='font-bold dark:text-blue-600 duration-1000'>Behance</span>,{' '}
-								<span className='font-bold dark:text-blue-300 duration-1000'>Coolors</span>,{' '}
-								<span className='font-bold duration-1000'>Medium</span>
-								{about[4][lang]}
-							</p>
-							<br />
-							<p>
-								{about[5][lang]}
-								<span className='font-bold dark:text-red-500 duration-1000'>HTML</span>,{' '}
-								<span className='font-bold dark:text-blue-500 duration-1000'>CSS</span>,{' '}
-								<span className='font-bold dark:text-yellow-500 duration-1000'>JavaScript</span>,{' '}
-								<span className='font-bold dark:text-blue-600 duration-1000'>React</span>,{' '}
-								<span className='font-bold dark:text-purple-600 duration-1000'>Kotlin</span>,{' '}
-								<span className='font-bold dark:text-green-600 duration-1000'>Node.js</span>{' '}y{' '}
-								<span className='font-bold dark:text-red-600 duration-1000'>Java</span>. 💻
-							</p>
-							<br />
-							<p>
-								{about[6][lang]}
-								<span className='font-bold dark:text-yellow-300 duration-1000'>Sal</span>daña y{' '}
-								<span
-									className='font-bold dark:text-yellow-500 duration-1000'>Es</span>pinoza. {about[7][lang]}
-							</p>
+					<div className='flex flex-col lg:flex-row text-lg lg:text-xl text-justify'>
+						<div className='w-full lg:w-1/2'>
+							<p dangerouslySetInnerHTML={{ __html: about[0][lang] }} />
+							<p className='my-5 text-xl font-bold uppercase'>{experience[7][lang]}</p>
+							<div className='flex justify-around flex-wrap text-center'>
+								{APPS.map((app, index) => (<CartoonCardOutlined Items={() => (<app.Icon color={app.color} size='40' />)} Background={app.bg} key={index} />))}
+							</div>
 						</div>
-						<div className='lg:w-1/2 px-4'>
-							<div className='w-full h-full flex justify-center items-center'>
-								<div>
-									<div className='flex p-5 lg:pb-2'>
-										<CartoonImageOutlined Items={() => (
-											<img src={MER} alt='Me in real life' className='rounded-full' />)} />
-										<CartoonImageOutlined Items={() => (
-											<img src={MED} alt='Me in digital life' className='rounded-full' />)} />
-									</div>
-									<div className='text-justify lg:text-center'>
-										<a href='https://open.spotify.com/playlist/6DjZu0vWZHIpmIM4Gk3oFJ?si=2a83bd0e0f0e4ff8'
-										   target='_blank' rel='noreferrer'>
-											{about[8][lang]}
-											<span
-												className='font-bold dark:text-green-500 duration-1000'>Spotify{' '}</span>
-											{about[9][lang]}
-										</a>
+						<div className='w-full lg:w-1/2 p-6'>
+							<div className='w-full h-full'>
+								<div className='flex justify-center'>
+									<div>
+										<div className='w-1/2 mx-auto'><CartoonImageOutlined Items={() => (<img src={ME} alt='Me in real life' className='rounded-full' />)} /></div>
+										<p className='mt-3' dangerouslySetInnerHTML={{ __html: about[1][lang] }} />
 									</div>
 								</div>
 							</div>
