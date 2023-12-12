@@ -84,7 +84,7 @@ export const about = [
 	},
 	{
 		es: `La palabra <strong class='dark:text-yellow-300 duration-1000'>Saldes</strong>, la cree en combinación de mis dos apellidos <span class='font-bold dark:text-yellow-300 duration-1000'>Sal</span>daña y <span class='font-bold dark:text-yellow-500 duration-1000'>Es</span>pinoza. Debido a que la ñ en español me daba problemas en algunas plataformas y sistemas. Digamos que es mi nombre de usuario común. 😅`,
-		en: `The word <strong class='dark:text-yellow-300 duration-1000'>Saldes</strong>, I created in combination of my two surnames. Due to the letter ñ in spanish it gave me problems in some platforms and systems. Let\'s say that is my username common. 😅`,
+		en: `The word <strong class='dark:text-yellow-300 duration-1000'>Saldes</strong>, I created in combination of my two surnames. Due to the letter ñ in spanish it gave me problems in some platforms and systems. Let's say that is my username common. 😅`,
 	},
 	{
 		es: 'Tecnologías, herramientas y frameworks que uso',
