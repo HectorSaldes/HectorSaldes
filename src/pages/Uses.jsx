@@ -2,7 +2,7 @@ import ReactGA from 'react-ga4';
 import { menu, uses } from '../assets/utils/Texts';
 
 export default function Uses({ lang }) {
-	ReactGA.send({ hitType: "pageview", page: "/#uses" });
+	ReactGA.send({ hitType: 'pageview', page: '/#uses' });
 	return (
 		<div id='uses' className='container mx-auto py-5 px-5 dark:text-white'>
 			<div className='lg:flex lg:min-h-screen lg:items-center'>
@@ -78,8 +78,10 @@ export default function Uses({ lang }) {
 			</div>
 			<div className='mt-3 text-center text-gray-600 dark:text-gray-300'>
 				{uses[5]['description'][lang]}
-				<a className='font-bold text-orange-600 dark:text-orange-400' href='https://uses.tech/' target='_blank' rel='noopener noreferrer'>Uses tech</a>
+				<a className='font-bold text-orange-600 dark:text-orange-400' href='https://uses.tech/' target='_blank'
+				   rel='noopener noreferrer'>Uses tech</a>
 			</div>
+
 		</div>
 	);
 }
@@ -87,8 +89,7 @@ export default function Uses({ lang }) {
 const BadgeApp = ({ e }) => (
 	<strong
 		className={`inline-flex items-center bg-gray-100 px-5 py-1.5 rounded-full ${e.colorBackground}`}>
-		<img className='object-cover w-8 h-8 rounded-full -ml-2.5 mr-2.5'
-			 src={e.img} alt='ic'
+		<img className='object-cover w-8 h-8 rounded-full -ml-2.5 mr-2.5' src={e.img} alt='ic'
 			 onError={({ currentTarget }) => {
 				 currentTarget.onerror = null;
 				 currentTarget.src = 'https://cataas.com/cat';

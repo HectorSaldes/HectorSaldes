@@ -3,7 +3,7 @@ import { menu, contact } from '../assets/utils/Texts';
 import Snacks from './Snacks';
 
 export default function Contact({ lang }) {
-	ReactGA.send({ hitType: "pageview", page: "/#contact" });
+	ReactGA.send({ hitType: 'pageview', page: '/#contact' });
 	return (
 		<div id='contact' className='container mx-auto pt-5 px-5 dark:text-white'>
 			<div className='lg:flex lg:h-screen lg:items-center'>

@@ -1,8 +1,8 @@
-import { GrLinkedinOption, } from 'react-icons/gr';
-import { FaMediumM, FaInstagram } from "react-icons/fa";
+import { GrLinkedinOption } from 'react-icons/gr';
+import { FaMediumM, FaInstagram } from 'react-icons/fa';
 import { FiGithub } from 'react-icons/fi';
-import { FaXTwitter } from "react-icons/fa6";
-import { SiGumroad, SiPlatzi, SiSpotify } from "react-icons/si";
+import { FaXTwitter } from 'react-icons/fa6';
+import { SiGumroad, SiPlatzi, SiSpotify } from 'react-icons/si';
 import { presentation } from '../assets/utils/Texts';
 import CartoonCardOutlined from '../components/CartoonCardOutlined';
 import Blobs from '../components/Blobs';
@@ -31,7 +31,7 @@ const links = [
 	},
 	{
 		name: 'LinkedIn',
-		link: 'https://www.linkedin.com/in/hector-salda%C3%B1a-espinoza-ab3977219/',
+		link: 'https://www.linkedin.com/in/hectorsaldes/',
 		Icon: GrLinkedinOption,
 		background: 'bg-[#0077b5]',
 		color: 'white',
@@ -73,17 +73,19 @@ export default function Presentation({ lang }) {
 			<div className='lg:flex lg:h-screen lg:items-center'>
 				<div>
 					<div className='text-lg lg:text-2xl font-medium text-justify lg:text-center'>
-						<p>{presentation[0][lang]}</p> <br/>
-						<h1 className='text-5xl lg:text-7xl font-bold lg:font-extrabold'>Héctor Saldaña Espinoza</h1> <br/>
-						<p>{presentation[1][lang]}</p> <br/>
-						<p>{presentation[2][lang]}</p> <br/>
-						<p>{presentation[3][lang]}</p> <br/>
+						<p>{presentation[0][lang]}</p> <br />
+						<h1 className='text-5xl lg:text-7xl font-bold lg:font-extrabold'>Héctor Saldaña Espinoza</h1>
+						<br />
+						<p>{presentation[1][lang]}</p> <br />
+						<p>{presentation[2][lang]}</p> <br />
+						<p>{presentation[3][lang]}</p> <br />
 					</div>
 					<div className='mt-8 mx-auto w-full lg:w-1/2'>
 						<div className='flex flex-wrap justify-between'>
 							{links.map((link, index) => (
-								<a href={link.link} target='_blank' rel='noopener noreferrer'>
-									<CartoonCardOutlined Items={() => (<link.Icon color={link.color} size='40' />)} Background={link.background} />
+								<a href={link.link} target='_blank' rel='noopener noreferrer' key={index+1}>
+									<CartoonCardOutlined Items={() => (<link.Icon color={link.color} size='40' />)}
+														 Background={link.background} />
 								</a>
 							))}
 						</div>

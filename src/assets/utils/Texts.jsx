@@ -93,26 +93,118 @@ export const about = [
 ];
 
 export const experience = [
-	{ es: 'Escolar 📗', en: 'School 📗' },
+	{ es: 'Educación 📗', en: 'Education 📗' },
 	{
-		es: 'Actualmente estoy en la universidad cursando la Ingeniería en Desarrollo y Gestión de Software, en donde tenemos materias actualizadas de acuerdo a la demanda de la sociedad.',
-		en: 'Currently I am at university studying the Engineering in Software Development and Management, where we have updated subjects according to the demand of society.',
+		education: [
+			{
+				es: {
+					grade: 'Técnico Profesional Media Superior en Informática',
+					school: 'Colegio Nacional de Educación Profesional Técnica',
+					year: 'Agosto 2016 - Julio 2019',
+					place: 'Morelos, México',
+				},
+				en: {
+					grade: 'Professional Technician in Computer Science',
+					school: 'Colegio Nacional de Educación Profesional Técnica',
+					year: 'August 2016 - July 2019',
+					place: 'Morelos, México',
+				},
+			},
+
+			{
+				es: {
+					grade: 'Técnico Superior Universitario en Desarrollo de Software Multiplataforma',
+					school: 'Universidad Tecnológica Emiliano Zapata',
+					year: 'Septiembre 2019 – Agosto 2021',
+					place: 'Morelos, México',
+				},
+				en: {
+					grade: 'Multiplatform Software Development Technician',
+					school: 'Universidad Tecnológica Emiliano Zapata',
+					year: 'September 2019 – August 2021',
+					place: 'Morelos, México',
+				},
+			},
+
+			{
+				es: {
+					grade: 'Ingeniero en Desarrollo y Gestión de Software',
+					school: 'Universidad Tecnológica Emiliano Zapata',
+					year: 'Septiembre 2021 – Abril 2023',
+					place: 'Morelos, México',
+				},
+				en: {
+					grade: 'Software Development and Management Engineer',
+					school: 'Universidad Tecnológica Emiliano Zapata',
+					year: 'September 2021 – April 2023',
+					place: 'Morelos, México',
+				},
+			},
+
+
+		],
 	},
+	{ es: 'Profesional 📒', en: 'Professional 📒' },
 	{
-		es: 'Terminé mi preparatoria siendo un profesional técnico en informática, adquiriendo las bases de la programación y la computadora así mismo desempeñándome en mis habilidades.',
-		en: 'I finished my preparatory being a technical professional in computer science, acquiring the basics of programming and the computer as well as performing my skills.',
-	},
-	{ es: 'Académica 📒', en: 'Academic 📒' },
-	{
-		es: 'Desarrollo de módulos en la plataforma web Verifica-t para la facturación electrónica en las empresas.',
-		en: 'Development of modules in the Verifica-t web platform for electronic invoicing in companies.',
-	}, {
-		es: 'Desarrollé una plataforma web para la consulta de propiedad intelectual.',
-		en: 'I developed a platform web for the consulting of intellectual property.',
-	},
-	{
-		es: 'Diseñé flyers para publicidad como eventos, reuniones o fiestas de hoteles.',
-		en: 'I designed flyers for publicity as events, meetings and parties of hotels',
+		professional: [
+
+			{
+				es:{
+					grade: 'Desarrollador Fullstack',
+					company: 'Freight Ideas S.A. de C.V.',
+					year: 'Diciembre 2022 – Presente',
+					place: 'CDMX, México',
+					text: 'Desarrollador en el proyecto Verifica-t en relación con la facturación.',
+
+				},
+				en:{
+					grade: 'Fullstack Developer',
+					company: 'Freight Ideas S.A. de C.V.',
+					year: 'December 2022 – Present',
+					place: 'México City, México',
+					text: 'Developer on the project Verifica-t related with invoices and billings.',
+				}
+			},
+
+
+
+			{
+				es:{
+					grade: 'Desarrollador Fullstack',
+					company: 'Novopatent I.S.S.C.',
+					year: 'Mayo 2021 – Agosto 2021',
+					place: 'Morelos, México',
+					text: 'Desarrollo de una plataforma web para la consulta de propiedad intelectual.',
+
+				},
+				en:{
+					grade: 'Fullstack Developer',
+					company: 'Novopatent I.S.S.C.',
+					year: 'May 2021 – August 2021',
+					place: 'Morelos, México',
+					text: 'Develop of a web platform for search of intellectual property.',
+				}
+			},
+
+
+			{
+				es:{
+					grade: 'Diseñador',
+					company: 'Viajemos a Morelos',
+					year: 'Julio 2018 – Enero 2020',
+					place: 'Morelos, México',
+					text: 'Diseño de flyers para eventos, fiestas y publicidad para hoteles.',
+				},
+				en:{
+					grade: 'Designer',
+					company: 'Viajemos a Morelos',
+					year: 'July 2018 – January 2020',
+					place: 'Morelos, México',
+					text: 'Design of flyers for events, parties, and publicity for hotels.',
+				}
+			},
+
+		],
 	},
 
 ];
@@ -126,9 +218,9 @@ export const uses = [
 		items: [
 			{
 				name: 'Tiktok',
-				img: 'https://static.vecteezy.com/system/resources/previews/004/542/856/non_2x/tiktok-tik-tok-musically-logo-icon-social-media-icons-set-logo-illustrator-free-vector.jpg',
-				colorBackground: 'dark:bg-[#ee2c5e]',
-				colorText: 'dark:text-black',
+				img: 'https://play-lh.googleusercontent.com/Ui_-OW6UJI147ySDX9guWWDiCPSq1vtxoC-xG17BU2FpU0Fi6qkWwuLdpddmT9fqrA=w240-h480-rw',
+				colorBackground: 'dark:bg-black',
+				colorText: '',
 			},
 			{
 				name: 'Addidas Running',
@@ -150,7 +242,7 @@ export const uses = [
 			},
 			{
 				name: 'Google Workspace',
-				img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/150px-Google_%22G%22_Logo.svg.png',
+				img: 'https://freelogopng.com/images/all_img/1657952641google-logo-png-image.png',
 				colorBackground: 'dark:bg-white',
 				colorText: 'dark:text-black',
 			},
@@ -212,6 +304,17 @@ export const uses = [
 				colorBackground: 'dark:bg-[#5865f2]',
 				colorText: '',
 			},
+			{
+				name: 'Platzi',
+				img: 'https://play-lh.googleusercontent.com/4RqG3k2Ouy4WXJAptapdG_AnOGXopn7XCVuiwIAeTBTfVHo3_KXCAdSzzQdCMB_Fzts7',
+				colorBackground: 'dark:bg-black',
+				colorText: '',
+			},{
+				name: 'OpenAI',
+				img: 'https://yt3.googleusercontent.com/UqT_vCkJIn1P2fH1pchr6lbe3xeEekY61h4bUpJkVuityqKOEtUYcNy3pLiJ5OKdj4uKA81FWE8=s900-c-k-c0x00ffffff-no-rj',
+				colorBackground: 'dark:bg-black',
+				colorText: '',
+			},
 		],
 	},
 	{
@@ -226,11 +329,15 @@ export const uses = [
 				colorBackground: 'dark:bg-[#4286f5]',
 				colorText: '',
 			},
-
-
 			{
 				name: 'JetBrains',
-				img: 'https://pbs.twimg.com/profile_images/1276465732923129856/A_SdJ_cW_400x400.jpg',
+				img: 'https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png',
+				colorBackground: 'dark:bg-black',
+				colorText: '',
+			},
+			{
+				name: 'Spotify',
+				img: 'https://play-lh.googleusercontent.com/cShys-AmJ93dB0SV8kE6Fl5eSaf4-qMMZdwEDKI5VEmKAXfzOqbiaeAsqqrEBCTdIEs=w240-h480-rw',
 				colorBackground: 'dark:bg-black',
 				colorText: '',
 			},
@@ -243,46 +350,11 @@ export const uses = [
 		},
 		items: [
 			{
-				link: 'https://a.co/d/35g1Qvp',
-				name: 'Laptop',
-				img: 'https://m.media-amazon.com/images/I/810gynDZHzL._AC_SL1500_.jpg',
-				colorBackground: 'dark:bg-green-600',
-				colorText: 'dark:text-[]',
-			},
-			{
-				link: 'https://a.co/d/6rzIkwX',
-				name: 'Keyboard/mouse',
-				img: 'https://m.media-amazon.com/images/I/81lpKnaWD6L._AC_SL1500_.jpg',
-				colorBackground: 'dark:bg-red-400',
-				colorText: '',
-			},
-			{
-				link: 'https://a.co/d/2zpqBAc',
-				name: 'Screen',
-				img: 'https://m.media-amazon.com/images/I/81ocT1HEurL._AC_SL1500_.jpg',
-				colorBackground: 'dark:bg-cyan-600',
-				colorText: '',
-			},
-			{
-				link: 'https://a.co/d/fiCqhfX',
-				name: 'Hub USB',
-				img: 'https://m.media-amazon.com/images/I/71XbGaHQtmL._AC_SL1500_.jpg',
+				link: '',
+				name: 'iMac 2013',
+				img: 'https://pconemexico.com.mx/cdn/shop/products/iMacA1418201321-53.webp?v=1681754332',
 				colorBackground: 'dark:bg-gray-600',
-				colorText: '',
-			},
-			{
-				link: 'https://a.co/d/4Peaoy6',
-				name: 'Microphone',
-				img: 'https://m.media-amazon.com/images/I/61iEVz+oyuL._AC_SL1486_.jpg',
-				colorBackground: 'dark:bg-black',
-				colorText: '',
-			},
-			{
-				link: 'https://a.co/d/eXibBrl',
-				name: 'Light',
-				img: 'https://m.media-amazon.com/images/I/612gNa-94AL._AC_SL1500_.jpg',
-				colorBackground: 'dark:bg-gray-800',
-				colorText: '',
+				colorText: 'dark:text-[]',
 			},
 			{
 				link: 'https://a.co/d/0FFnnih',

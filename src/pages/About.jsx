@@ -1,9 +1,33 @@
-import ReactGA from "react-ga4";
+import ReactGA from 'react-ga4';
 import { menu, about } from '../assets/utils/Texts';
 import ME from '../assets/img/ME.jpg';
 import CartoonImageOutlined from '../components/CartoonImageOutlined';
 import CartoonCardOutlined from '../components/CartoonCardOutlined';
-import { SiAndroidstudio, SiCanva, SiFigma, SiGit, SiGithub, SiHtml5, SiJavascript, SiMongodb, SiNetlify, SiNodedotjs, SiNotion, SiDjango, SiSpotify, SiSpring, SiTailwindcss, SiUbuntu, SiUnsplash, SiVisualstudiocode, SiOracle, SiPostgresql, SiMysql, SiVuetify, SiGumroad } from 'react-icons/si';
+import {
+	SiAndroidstudio,
+	SiCanva,
+	SiFigma,
+	SiGit,
+	SiGithub,
+	SiHtml5,
+	SiJavascript,
+	SiMongodb,
+	SiNetlify,
+	SiNodedotjs,
+	SiNotion,
+	SiDjango,
+	SiSpotify,
+	SiSpring,
+	SiTailwindcss,
+	SiUbuntu,
+	SiUnsplash,
+	SiVisualstudiocode,
+	SiOracle,
+	SiPostgresql,
+	SiMysql,
+	SiVuetify,
+	SiGumroad,
+} from 'react-icons/si';
 import { FaBootstrap, FaReact, FaVuejs, FaMediumM, FaPython } from 'react-icons/fa';
 import { DiJava } from 'react-icons/di';
 
@@ -42,11 +66,10 @@ const APPS = [
 	{ Icon: FaMediumM, bg: 'bg-[#000]', color: 'white' },
 	{ Icon: SiUnsplash, bg: 'bg-[#000]', color: 'white' },
 	{ Icon: SiGumroad, bg: 'bg-[#ff93e9]', color: 'black' },
-
-]
+];
 
 export default function About({ lang }) {
-	ReactGA.send({ hitType: "pageview", page: "/#about" });
+	ReactGA.send({ hitType: 'pageview', page: '/#about' });
 	return (
 		<div id='about' className='container mx-auto py-5 px-5 dark:text-white'>
 			<div className='lg:flex lg:min-h-screen lg:items-center'>
@@ -60,7 +83,8 @@ export default function About({ lang }) {
 							<div className='w-full h-full'>
 								<div className='flex justify-center'>
 									<div>
-										<div className='w-1/2 mx-auto'><CartoonImageOutlined Items={() => (<img src={ME} alt='Me in real life' className='rounded-full' />)}/></div>
+										<div className='w-1/2 mx-auto'><CartoonImageOutlined Items={() => (
+											<img src={ME} alt='Me in real life' className='rounded-full' />)} /></div>
 										<p className='mt-3' dangerouslySetInnerHTML={{ __html: about[1][lang] }} />
 									</div>
 								</div>
@@ -70,7 +94,8 @@ export default function About({ lang }) {
 					<p className='my-5 text-xl font-bold uppercase'>{about[2][lang]}</p>
 					<div className='flex justify-around flex-wrap text-center'>
 						{APPS.map((app, index) => (
-							<CartoonCardOutlined Items={() => (<app.Icon color={app.color} size='40' />)} Background={app.bg} key={index} />))}
+							<CartoonCardOutlined Items={() => (<app.Icon color={app.color} size='40' />)}
+												 Background={app.bg} key={index} />))}
 					</div>
 				</div>
 			</div>
